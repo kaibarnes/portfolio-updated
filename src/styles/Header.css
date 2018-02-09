@@ -1,0 +1,14 @@
+.Header__title {
+	border: 5px solid white;
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 30px auto 0;
+}
+
+.Header__text {
+	margin: 0;
+}
+
+.Header__job {
+	font-size: 1rem;
+}
