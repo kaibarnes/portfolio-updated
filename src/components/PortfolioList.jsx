@@ -4,7 +4,6 @@ import PortfolioItem from './PortfolioItem';
 // Import screenshots of each project in the portfolio
 import todoScreenshot from '../images/todo-screenshot.png';
 import partyPlannerScreenshot from '../images/party-planner-screenshot.png';
-import weatherScreenshot from '../images/weather-screenshot.png';
 import findingsummersendScreenshot from '../images/findingsummersend-screenshot.png';
 import candymarcheScreenshot from '../images/candymarche-screenshot.png';
 import shinpuruScreenshot from '../images/shinpuru-screenshot.png';
@@ -44,16 +43,6 @@ const projects = [
     description:
       'A site I was hired to make freelance. I was provided with Photoshop files and a style guide, and consulted with the designer to complete the project.',
     link: 'http://www.candymarche.com'
-  },
-
-  {
-    image: weatherScreenshot,
-    title: 'Weather App',
-    skills: 'Axios, React, Foundation',
-    description:
-      'A searchable weather app that grabs the weather of your chosen location from the Open Weather Map API using Axios.',
-    link: 'http://kaibarnes-weather.surge.sh',
-    github: 'https://github.com/kaibarnes/react-weather'
   },
   {
     image: todoScreenshot,
