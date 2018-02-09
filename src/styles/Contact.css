@@ -1,56 +1,60 @@
 .Contact {
-	max-width: 600px;
-	margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.Contact__text {
+  margin: 25px 0 35px;
 }
 
 .Contact__form-label {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .Contact__form-input {
-	border: none;
-	margin: 0;
-	padding: 5px;
-	width: 100%;
+  border: none;
+  margin: 0;
+  padding: 5px;
+  width: 100%;
 }
 
 .Contact__form-input:focus {
-	outline: 0;
+  outline: 0;
 }
 
 .Contact__form-textarea {
-	border: none;
-	width: 100%;
-	height: 200px;
-	padding: 5px;
+  border: none;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
 }
 
 .Contact__form-textarea:focus {
-	outline: 0;
+  outline: 0;
 }
 
 .Contact__form-button {
-	background: white;
-	border: none;
-	color: #2acece;
-	font-size: 1.2rem;
-	padding: 12px 20px;
-	margin-top: 20px;
-	width: 100%;
+  background: white;
+  border: none;
+  color: #2acece;
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .Contact__form-button:hover {
-	background: #3f5268;
-	color: white;
-	cursor: pointer;
+  background: #3f5268;
+  color: white;
+  cursor: pointer;
 }
 
 @media (min-width: 560px) {
-	.Contact__form-input {
-		width: 50%;
-	}
+  .Contact__form-input {
+    width: 50%;
+  }
 
-	.Contact__form-button {
-		width: auto;
-	}
+  .Contact__form-button {
+    width: auto;
+  }
 }
