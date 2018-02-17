@@ -34,19 +34,14 @@
 }
 
 .Contact__form-button {
-  background: white;
+  background: #82d8d8;
   border: none;
-  color: #2acece;
+  color: #4c425b;
   font-size: 1.2rem;
+  font-weight: bold;
   padding: 12px 20px;
   margin-top: 20px;
   width: 100%;
-}
-
-.Contact__form-button:hover {
-  background: #3f5268;
-  color: white;
-  cursor: pointer;
 }
 
 @media (min-width: 560px) {
@@ -55,6 +50,13 @@
   }
 
   .Contact__form-button {
+    transition: all 0.3s ease;
     width: auto;
+  }
+
+  .Contact__form-button:hover {
+    background: #68aaaa;
+    /* color: white; */
+    cursor: pointer;
   }
 }
