@@ -28,7 +28,9 @@ class About extends React.Component {
               <li className="About__list-item">Javascript</li>
               <li className="About__list-item">jQuery</li>
               <li className="About__list-item">React</li>
+              <li className="About__list-item">React Native</li>
               <li className="About__list-item">MongoDB</li>
+              <li className="About__list-item">Firebase</li>
               <li className="About__list-item">Wordpress</li>
               <li className="About__list-item">Git</li>
             </ul>
@@ -58,9 +60,10 @@ class About extends React.Component {
             <h2 className="heading">My hobbies</h2>
             <ul className="About__list">
               <li className="About__list-item">Travelling</li>
-              <li className="About__list-item">Drinking</li>
+              <li className="About__list-item">Podcasts</li>
               <li className="About__list-item">Gaming</li>
               <li className="About__list-item">Attending Meetups</li>
+              <li className="About__list-item">Drinking</li>
             </ul>
           </div>
         </div>
