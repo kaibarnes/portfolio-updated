@@ -47,7 +47,7 @@ const projects = [
   {
     image: todoScreenshot,
     title: 'Todo list',
-    skills: 'Redux, React, Expect, Foundation',
+    skills: 'Redux, React, Mocha/Expect, Foundation',
     description:
       'A todo app using Redux to manage state and Expect to run tests. It uses local storage so todos can be checked and added to at any time.',
     link: 'http://kaibarnes-todolist.surge.sh',
